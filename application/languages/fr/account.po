@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oui-galerie 3\n"
+"POT-Creation-Date: 2013-03-19 23:04+0100\n"
+"PO-Revision-Date: 2013-03-19 23:04+0100\n"
+"Last-Translator: avignaud <avignaud@cde4.com>\n"
+"Language-Team: CDE4 <avignaud@cde4.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: translate;_;setLabel;setValue;_refresh;setMessage;"
+"append;prepend;__\n"
+"X-Poedit-Basepath: /Users/avignaud/Sites/og/www\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: application/modules/account\n"
+
+#: application/modules/account/views/scripts/index/index.phtml:1
+msgid "account.title"
+msgstr "Mon compte"
+
+#: application/modules/account/views/scripts/index/index.phtml:2
+msgid "account.description"
+msgstr ""
+"Sur cette page vous pouvez gérer votre compte client.<br>Vous avez accès à "
+"vos coordonnées, à vos adresses de facturation et de livraison<br>ainsi qu'à "
+"la liste de vos commandes effectuées sur notre site."
+
+#~ msgid "page.account"
+#~ msgstr "Mon compte"
+
+#~ msgid "error.page_reached"
+#~ msgstr "Vous êtes sur la page d'erreur"
+
+#~ msgid "error.page_not_found"
+#~ msgstr "Page non trouvée"
+
+#~ msgid "error.application_error"
+#~ msgstr "Erreur applicative"
+
+#~ msgid "default.error_occured_line%d"
+#~ msgstr "Une erreur est survenue en ligne %d"
+
+#~ msgid "error.error_occurred"
+#~ msgstr "Une erreur est survenue"
+
+#~ msgid "error.exception_information"
+#~ msgstr "Information sur l'exception"
+
+#~ msgid "error.message"
+#~ msgstr "Message"
+
+#~ msgid "error.stack_trace"
+#~ msgstr "Trace de la pile"
+
+#~ msgid "error.request_parameters"
+#~ msgstr "Paramètres de la requête"
+
+#~ msgid "page.contact"
+#~ msgstr "Nous contacter"
+
+#~ msgid "page.sitemap"
+#~ msgstr "Plan du site"
+
+#~ msgid "home.welcome"
+#~ msgstr "Bienvenue sur Oui-Galerie"
+
+#~ msgid "page.home"
+#~ msgstr "Accueil"
+
+#~ msgid "site.title"
+#~ msgstr "Oui Galerie 4.0"
+
+#~ msgid "site.copyright"
+#~ msgstr "&copy; CDE4 1996-2013"
+
+#~ msgid "error.requested_page_does_not_exists"
+#~ msgstr "La page demandée n'existe pas"

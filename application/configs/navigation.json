@@ -1,0 +1,76 @@
+{
+    "menu": {
+        "label": "page.main",
+        "uri": "#",
+        "id": "menu",
+        "pages": {
+            "home": {
+                "label": "page.home",
+                "module": "default",
+                "controller": "index",
+                "action": "index",
+                "id": "home"
+            },
+            "new": {
+                "label": "page.last_published",
+                "module": "catalog",
+                "controller": "list",
+                "action": "index",
+                "id": "last_published"
+            },
+            "category": {
+                "label": "page.by_category",
+                "module": "catalog",
+                "controller": "list",
+                "action": "index"
+            },
+            "author": {
+                "label": "page.by_author",
+                "module": "catalog",
+                "controller": "list",
+                "action": "index"
+            }
+        }
+    },
+    "account": {
+        "label": "page.account",
+        "action": "index",
+        "controller": "index",
+        "module": "account",
+        "id": "account"
+    },
+    "basket": {
+        "label": "page.basket",
+        "action": "index",
+        "controller": "index",
+        "module": "basket",
+        "id": "basket"
+    },
+    "footer": {
+        "label": "page.others",
+        "uri": "#",
+        "id": "footer",
+        "pages": {
+            "about": {
+                "label": "page.about",
+                "module": "default",
+                "controller": "index",
+                "action": "about",
+                "id": "about"
+            },
+            "contact": {
+                "label": "page.contact",
+                "module": "default",
+                "controller": "index",
+                "action": "contact",
+                "id": "contact"
+            },
+            "sitemap": {
+                "label": "page.sitemap",
+                "module": "default",
+                "controller": "index",
+                "action": "sitemap"
+            }
+        }
+    }
+}

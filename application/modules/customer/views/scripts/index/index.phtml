@@ -1,0 +1,22 @@
+<h1><?php echo $this->translate('customer.title') ?></h1>
+<div id="view-content">
+    <dl class="dl-horizontal">
+        <?php if ($this->customer->societe) : ?>
+        <dt><label><?php echo $this->translate('customer.organization') ?></label></dt>
+        <dd>
+            <?php echo $this->customer->societe ?>
+
+        </dd>
+        <?php endif ?>
+
+        <dt><label><?php echo $this->translate('customer.name') ?></label></dt>
+        <dd>
+            <?php echo $this->translate($this->civility[$this->customer->titre]) ?>
+            <?php echo $this->customer->prenom ?>
+            <?php echo $this->customer->nom ?>
+
+            &nbsp;
+        </dd>
+
+    </dl>
+</div>

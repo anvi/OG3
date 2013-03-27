@@ -1,0 +1,13 @@
+<h1><?php echo $this->translate('general.table_list') ?></h1>
+<form class="form-horizontal" method="post">
+    <dl class="dl-horizontal">
+        <dt><label for="table">Table : </label></dt>
+        <dd><?php echo $this->formSelect('table', $this->table, array(), $this->tableList) ?></dd>
+    </dl>
+    <div class="form-actions">
+        <button type="submit" name="process" value="process" class="btn btn-primary">Ok</button>
+    </div>
+    <?php if ($this->tableInfo): ?>
+    <pre><?php var_export($this->tableInfo) ?></pre>
+    <?php endif ?>
+</form>

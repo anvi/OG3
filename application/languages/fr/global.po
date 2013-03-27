@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oui-galerie 3\n"
+"POT-Creation-Date: 2013-03-17 18:56+0100\n"
+"PO-Revision-Date: 2013-03-23 23:52+0100\n"
+"Last-Translator: avignaud <avignaud@cde4.com>\n"
+"Language-Team: cde4 <avignaud@cde4.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: translate;_;setLabel;setValue;_refresh;setMessage;"
+"append;prepend;__\n"
+"X-Poedit-Basepath: /Users/avignaud/Sites/og/www\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: application/dummy\n"
+
+msgid "page.main"
+msgstr "Pages principales"
+
+msgid "page.home"
+msgstr "Accueil"
+
+msgid "page.about"
+msgstr "A propos"
+
+msgid "page.contact"
+msgstr "Nous contacter"
+
+msgid "page.last_published"
+msgstr "Nouveautés"
+
+msgid "page.account"
+msgstr "Mon compte"
+
+msgid "page.basket"
+msgstr "Mon panier"
+
+msgid "page.by_category"
+msgstr "Catégories"
+
+msgid "page.by_author"
+msgstr "Auteurs"
+
+msgid "page.others"
+msgstr "Autres pages"
+
+msgid "customer.mister_abrev"
+msgstr "M."
+
+msgid "customer.missis_abrev"
+msgstr "Mme"
+
+msgid "customer.miss_abrev"
+msgstr "Melle"

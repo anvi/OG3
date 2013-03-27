@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+    <title><?php echo $this->title ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="<?php echo $this->baseUrl() ?>/">
+    <!-- Bootstrap -->
+    <?php
+        $this->headLink()->appendStylesheet('css/bootstrap.min.css', 'screen', true);
+        $this->headLink()->appendStylesheet('css/og/common.css', 'screen', true);
+    ?>
+    <?php echo $this->headLink() ?>
+  </head>
+  <body>
+      <div class="container">
+
+      <div class="masthead">
+          <form class="form-search pull-right" method="post" action="<?php echo $this->url(array('action' => 'index', 'controller' => 'search', 'module' => 'default')) ?>">
+              <?php echo $this->partial('search.phtml', $this) ?>
+            |
+            <?php $accountPage = $this->navigation()->findOneById('account'); ?>
+            <?php echo sprintf('<a href="%s" title="%s" id="%s">%s</a>', $accountPage->getHref(), $accountPage->title, $accountPage->id, $this->translate($accountPage->label)) ?>
+            |
+            <?php $basketPage = $this->navigation()->findOneById('basket'); ?>
+            <?php echo sprintf('<a href="%s" title="%s" id="%s">%s</a>', $basketPage->getHref(), $basketPage->title, $basketPage->id, $this->translate($basketPage->label)) ?>
+        </form>
+        <h3 class="muted"><?php echo $this->translate('site.title') ?></h3>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+            <?php
+                $this->navigation()->menu()
+                    ->setUlClass('nav')
+                    ->setActiveClass('active')
+            ?>
+                <?php echo $this->navigation()->menu()->renderMenu($this->navigation()->findOneById('menu')) ?>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+          <?php echo $this->layout()->content ?>
+
+      <hr>
+
+      <div class="footer">
+        <p><?php echo $this->translate('site.copyright') ?></p>
+        <p><?php echo $this->navigation()->menu()->renderMenu($this->navigation()->findOneById('footer')) ?></p>
+      </div>
+
+    </div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+  <h1><?php echo $this->translate('error.error_occurred') ?></h1>
+  <h2><?php echo $this->message ?></h2>
+
+  <?php if (isset($this->exception)): ?>
+
+  <h3><?php echo $this->translate('error.exception_information') ?></h3>
+  <p>
+      <b><?php echo $this->translate('error.message') ?></b> <?php echo $this->exception->getMessage() ?>
+  </p>
+
+  <h3><?php echo $this->translate('error.stack_trace') ?></h3>
+  <pre><?php echo $this->exception->getTraceAsString() ?></pre>
+
+  <h3><?php echo $this->translate('error.request_parameters') ?></h3>
+  <pre><?php echo $this->escape(var_export($this->request->getParams(), true)) ?></pre>
+
+  <?php endif ?>

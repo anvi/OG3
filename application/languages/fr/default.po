@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: oui-galerie 3\n"
+"POT-Creation-Date: 2013-03-19 22:55+0100\n"
+"PO-Revision-Date: 2013-03-19 22:55+0100\n"
+"Last-Translator: avignaud <avignaud@cde4.com>\n"
+"Language-Team: cde4 <avignaud@cde4.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: translate;_;setLabel;setValue;_refresh;setMessage;"
+"append;prepend;__\n"
+"X-Poedit-Basepath: /Users/avignaud/Sites/og/www\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: application/modules/default\n"
+
+#: application/modules/default/controllers/ErrorController.php:11
+msgid "error.page_reached"
+msgstr "Vous êtes sur la page d'erreur"
+
+#: application/modules/default/controllers/ErrorController.php:22
+msgid "error.page_not_found"
+msgstr "Page non trouvée"
+
+#: application/modules/default/controllers/ErrorController.php:28
+msgid "error.application_error"
+msgstr "Erreur applicative"
+
+#: application/modules/default/controllers/IndexController.php:16
+#, php-format
+msgid "default.error_occured_line%d"
+msgstr "Une erreur est survenue en ligne %d"
+
+#: application/modules/default/views/scripts/error/error.phtml:1
+msgid "error.error_occurred"
+msgstr "Une erreur est survenue"
+
+#: application/modules/default/views/scripts/error/error.phtml:6
+msgid "error.exception_information"
+msgstr "Information sur l'exception"
+
+#: application/modules/default/views/scripts/error/error.phtml:8
+msgid "error.message"
+msgstr "Message"
+
+#: application/modules/default/views/scripts/error/error.phtml:11
+msgid "error.stack_trace"
+msgstr "Trace de la pile"
+
+#: application/modules/default/views/scripts/error/error.phtml:14
+msgid "error.request_parameters"
+msgstr "Paramètres de la requête"
+
+#: application/modules/default/views/scripts/index/about.phtml:1
+msgid "page.about"
+msgstr "A propos"
+
+#: application/modules/default/views/scripts/index/contact.phtml:1
+msgid "page.contact"
+msgstr "Nous contacter"
+
+#: application/modules/default/views/scripts/index/sitemap.phtml:3
+msgid "page.sitemap"
+msgstr "Plan du site"
+
+#~ msgid "home.welcome"
+#~ msgstr "Bienvenue sur Oui-Galerie"
+
+#~ msgid "page.home"
+#~ msgstr "Accueil"
+
+#~ msgid "site.title"
+#~ msgstr "Oui Galerie 4.0"
+
+#~ msgid "site.copyright"
+#~ msgstr "&copy; CDE4 1996-2013"
+
+#~ msgid "error.requested_page_does_not_exists"
+#~ msgstr "La page demandée n'existe pas"
